@@ -1,0 +1,47 @@
+/**
+ * Name: Diana Dai
+ */
+
+body {
+}
+
+h1, h2, h3, h4, cite, footer {
+  text-align: center;
+}
+
+h1, h2 {
+  background-color: rgb(51, 0, 111);
+  color: white;
+}
+
+h3 {
+  background-color: rgb(145, 123, 76);
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: rgb(232, 211, 162);
+}
+
+nav li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+article {
+  margin: 1em;
+  background-color: rgb(232, 211, 162);
+  padding: 1em;
+}
+
+#about-me div, #leadership div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: rgba(255, 0, 0, 0.9);
+}
