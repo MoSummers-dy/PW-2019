@@ -2,17 +2,25 @@
  * Name: Diana Dai
  */
 
+ @import url('https://fonts.font.im/css?family=Coda|Hind+Siliguri');
+
 body {
   width: 80%;
   margin: auto auto;
   background-color: #eeede7;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 h1, h2, h3, h4, cite, footer {
   text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
+  font-family: 'Coda', cursive;
+  margin: auto auto;
+}
+
+h2 {
   background-color: #5997ac;
   color: white;
 }
@@ -37,12 +45,11 @@ article {
   margin: 1em;
   background-color: #f7aec2;
   padding: 1em;
+  flex: 1;
 }
 
-#about-me div, #leadership div {
+section div {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
 }
 
 footer {
