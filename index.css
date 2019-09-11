@@ -3,6 +3,9 @@
  */
 
 body {
+  width: 80%;
+  margin: auto auto;
+  background-color: #eeede7;
 }
 
 h1, h2, h3, h4, cite, footer {
@@ -10,19 +13,19 @@ h1, h2, h3, h4, cite, footer {
 }
 
 h1, h2 {
-  background-color: rgb(51, 0, 111);
+  background-color: #5997ac;
   color: white;
 }
 
 h3 {
-  background-color: rgb(145, 123, 76);
+  background-color: #af5166;
   color: white;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-  background-color: rgb(232, 211, 162);
+  background-color: #a1cbdd;
 }
 
 nav li {
@@ -32,7 +35,7 @@ nav li {
 
 article {
   margin: 1em;
-  background-color: rgb(232, 211, 162);
+  background-color: #f7aec2;
   padding: 1em;
 }
 
@@ -43,5 +46,5 @@ article {
 }
 
 footer {
-  background-color: rgba(255, 0, 0, 0.9);
+  background-color: #eeede7;
 }
